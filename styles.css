@@ -53,12 +53,14 @@ h4{
 }
 h3 {
    
-    padding-top: 160px;
+    padding-top: 195px;
     animation: flipInY 4s ease-in 1s;
     color: rgb(42, 4, 73);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
+li{
+    display:grid;
+}
 #dnn_ctr428_ContentPane{
     transform-origin: left top;
     animation: scale 3000ms ease-in-out forwards;
