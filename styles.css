@@ -3,46 +3,81 @@ body {
     background-color: rgb(214, 123, 214);
     background-image: url("background.png");
 font-family:  sans-serif;}
+.desc{
+    color:rgb(28, 6, 68);
+    position: fixed;
+    z-index:1;
+    padding-left: 150px;
+    
+}
 p {
     color: rgb(35, 10, 56);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 130%;
     }
+    h4:hover{
+
+        color:darkslategray
+    }
 h1 {
     margin:0px; 
-    font-family: Bahnschrift SemiBold;
-    padding:0px 0; 
-    padding-left: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px 0; 
+    border-radius: 15px;
     font-size:40px; 
-    color:rgb(11, 1, 12); 
+    color:azure; 
+    width: 350px;
+    height: 150px;
     font-weight:100;
-    animation: fadeInLeftBig 3s ease 0s 1 normal forwards;
+    animation: fadeInLeftBig 3s ease 3s 1 normal forwards;
+    background-image: url("hat.jfif");
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    
+
 }
-h3 {
-    padding-left:10px;
-    animation: flipInY 4s ease-in 1s;
-    color: rgb(35, 10, 56);
-    font-family: Bahnschrift SemiBold, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.img-rectangular img {
-    width: 200px;
-    height: 200px;
-    padding-left: 15px;}
-.img-rectangular:hover img {
+h4{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: lightblue;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bolder;
     transform-origin: left top;
     animation: scale 3000ms ease-in-out forwards;
+    text-align: initial;
+    line-height: 1.5;
+    
+}
+h3 {
+   
+    padding-top: 112px;
+    animation: flipInY 4s ease-in 1s;
+    color: rgb(42, 4, 73);
+    font-family: Bahnschrift SemiBold, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#dnn_ctr428_ContentPane{
+    transform-origin: left top;
+    animation: scale 3000ms ease-in-out forwards;
+
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  margin-left:10px;
+  z-index:1;
   }
   @keyframes scale {
     to {
       transform: scale(1.2);
     }
   }
-</style>
-</head>
-<body>
 
 
-.fadeInLeftBig {
+
+#fadeInLeftBig, h4 {
+    top: -250px;
+    display: block;
     -webkit-animation-name: fadeInLeftBig;
     animation-name: fadeInLeftBig;
     -webkit-animation-duration: 1s;
@@ -74,7 +109,7 @@ h3 {
     transform: none;
     }
     } 
-    .flipInY {
+    .flipInY, h1 {
         -webkit-backface-visibility: visible !important;
         backface-visibility: visible !important;
         -webkit-animation-name: flipInY;
@@ -182,5 +217,7 @@ h3 {
           table.cinereousTable tfoot td {
             font-size: 16px;
           }
+          </style>
+</head>
 </body>
 </html>
