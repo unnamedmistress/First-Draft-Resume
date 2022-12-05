@@ -54,6 +54,7 @@ h4{
 h3 {
    
     padding-top: 195px;
+    float:center;
     animation: flipInY 4s ease-in 1s;
     color: rgb(42, 4, 73);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
